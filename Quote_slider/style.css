@@ -1,0 +1,36 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/1685716623_en-idei-club-p-quotes-background-dizain-instagram-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quote-box {
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    
+  }
+
+  .quote-text {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .quote-author {
+    font-size: 18px;
+    font-style: italic;
+  }
