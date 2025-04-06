@@ -1,0 +1,67 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url('images/beautiful-leaf-green-plant-water-nature-powerpoint-background_1ee060f04f__960_540.avif');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 750px;
+    overflow: hidden;
+    margin: 30px auto;
+    border-radius: 12px;
+}
+.slider
+{
+    display: flex;
+    transition: transform;
+    width: 100%;
+}
+.img 
+{
+    width: 100%;
+    height: 550px;
+    border-radius: 12px;
+    border: 15px solid white;
+}
+#previous,#next 
+{
+    height: 50px;
+    width: 10%;
+    cursor: pointer;
+    position: absolute;
+    top: 85%;
+    background-color: rgba(22, 95, 110, 0.404);
+    color: rgb(17, 17, 17);
+    border: 3px solid white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+#previous 
+{
+    margin-left: 15%;
+    margin-top: -320px;
+}
+#next 
+{
+    margin-left: 76%;
+    margin-top: -320px;
+}
+#previous:hover,#next:hover 
+{
+    background-color: rgb(20, 114, 25);
+}
+#previous:hover,#next:hover 
+{
+    color: rgb(241, 226, 226);
+    font-weight: 200;
+    border: 3px solid black;
+}
