@@ -1,0 +1,38 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container
+{
+    height: 100px;
+    width: 500px;
+    background-color: aqua;
+    margin-left: 35%;
+}
+.input
+{
+    margin: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn
+{
+    height: 30px;
+    border-radius: 10px;
+}
+.noteslist{
+    height: 500px;
+    width: 100%;
+    background-color: yellow;
+    margin-top: 70px;
+}
+.box
+{
+    height: 20px;
+    width: 180px;
+    background-color: blue;
+    display: block;
+}
