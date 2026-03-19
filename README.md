@@ -1,5 +1,6 @@
 # jQuery
 
+<h1>All Jquery projects are here</h1>
 
 ## 🖼️ Image Slider
 
